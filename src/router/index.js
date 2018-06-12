@@ -6,6 +6,7 @@ import Parallel from '@/components/parallel'
 import Radar from '@/components/radar'
 import Themeriver from '@/components/themeriver'
 import Line from '@/components/line'
+import Heatmap from '@/components/heatmap'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path:'/line',
       name:'Line',
       component:Line
+    },
+    {
+      path:'/heatmap',
+      name:'Heatmap',
+      component:Heatmap
     }
 
   ]
